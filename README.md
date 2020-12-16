@@ -1,12 +1,12 @@
 # oidc-provider conformance tests
 
-[![build][travis-image]][travis-url]
+A conformance test suite for certification of OP Basic, OP Implicit, OP
+Hybrid, OP Config and OP Dynamic profiles.
 
-A conformance test suite for [oidc-provider] library certification of OP Basic, OP Implicit,
-OP Hybrid, OP Config and OP Dynamic profiles.
+## Status
 
-revision: April 2017
+This is a fork of [panva][1]'s repository, which is will be made into a
+reusable, command line application to test the correctness of any oidc
+provider implementation.
 
-[oidc-provider]: https://github.com/panva/node-oidc-provider
-[travis-image]: https://travis-ci.com/panva/oidc-provider-conformance-tests.svg?branch=master
-[travis-url]: https://travis-ci.com/panva/oidc-provider-conformance-tests/builds
+[panva]: https://github.com/panva

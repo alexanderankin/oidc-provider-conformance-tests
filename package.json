@@ -1,7 +1,7 @@
 {
-  "name": "oidc-provider-conformance-tests",
+  "name": "oidc-provider-conformance",
   "version": "1.0.0",
-  "description": "node's oidc-provider library conformance tests",
+  "description": "test suite to check an oidc-provider's conformance",
   "scripts": {
     "code": "node test/code",
     "id_token": "node test/id_token",
@@ -12,11 +12,11 @@
     "lint": "eslint test",
     "lint-fix": "eslint test --fix"
   },
-  "repository": "panva/oidc-provider-conformance-tests",
-  "engines": {
-    "node": ">=12.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderankin/oidc-provider-conformance-tests.git"
   },
-  "homepage": "https://github.com/panva/oidc-provider-conformance-tests",
+  "homepage": "https://github.com/alexanderankin/oidc-provider-conformance-tests",
   "author": "Filip Skokan",
   "license": "MIT",
   "dependencies": {
