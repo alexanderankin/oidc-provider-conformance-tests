@@ -2,6 +2,10 @@
   "name": "oidc-provider-conformance",
   "version": "1.0.0",
   "description": "test suite to check an oidc-provider's conformance",
+  "main": "main.js",
+  "bin": {
+    "oidc-provider-conformance": "./bin/oidc-provider-conformance.js"
+  },
   "scripts": {
     "code": "node test/code",
     "id_token": "node test/id_token",
